@@ -569,6 +569,8 @@ progress {
   }
 }
 
+
+
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
@@ -4618,10 +4620,10 @@ textarea.form-control-lg {
 
 .card-img-overlay {
   position: absolute;
-  top: 0;
+  /* top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
   padding: 1rem;
   border-radius: calc(0.25rem - 1px);
 }
@@ -7454,9 +7456,29 @@ textarea.form-control-lg {
 }
 
 .p-5 {
-  padding: 3rem !important; /*espaçamento*/
+  /* padding: 3rem !important; espaçamento */
+  text-align: left;
+  position: static;
 }
-
+#text1{
+  width: 80rem;
+}
+.text{
+  font-size:20px;
+  text-align: justify;
+}
+#img{
+  width: 100%;
+  /* topo | direita | inferior | esquerda */
+  margin: 20px 0 20px 0;
+}
+li{
+  font-size: 20px ;
+}
+#btn{
+  background-color: red;
+  margin: 10px;
+}
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
