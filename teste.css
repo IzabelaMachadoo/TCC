@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Playball & display = swap');
 /*!
 * Start Bootstrap - One Page Wonder v6.0.5 (https://startbootstrap.com/theme/one-page-wonder)
 * Copyright 2013-2022 Start Bootstrap
@@ -63,7 +64,9 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }*/
-
+#title{
+  font-family: 'Playball', cursiva;
+}
 *,
 *::before,
 *::after {
@@ -7470,7 +7473,13 @@ textarea.form-control-lg {
 #img{
   width: 100%;
   /* topo | direita | inferior | esquerda */
-  margin: 20px 0 20px 0;
+  margin: 20px 20px 20px 20px;
+}
+#img2{
+  width: 352px;
+  height: 352px;
+  /* topo | direita | inferior | esquerda */
+  margin: 50px 20px 20px 20px;
 }
 li{
   font-size: 20px ;
