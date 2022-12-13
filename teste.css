@@ -7458,6 +7458,42 @@ textarea.form-control-lg {
   padding: 1.5rem !important;
 }
 
+summary {
+  text-align: center;
+}
+
+.ingredientes, .modo-preparo {
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+  color: var(--white);
+  width: 180px;
+  height: 40px;
+  transition: 0.7s;
+  border: solid 2px var(--white);
+  border-radius: 24px;
+  width: 180px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.ingredientes:hover, .modo-preparo:hover {
+  border: none;
+  background-color: var(--orange);
+  font-size: 18px;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.botoes {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
 .p-5 {
   /* padding: 3rem !important; espaçamento */
   text-align: left;
@@ -7465,6 +7501,22 @@ textarea.form-control-lg {
 }
 #text1{
   width: 80rem;
+}
+
+#text4{ /*FONTE INICIAL*/
+  position: relative;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#lista-ingredientes{
+  position: relative;
+}
+
+#text5{
+  font-size: 30px;
+  text-align: justify;
+  position: relative;
 }
 .text{
   font-size:20px;
